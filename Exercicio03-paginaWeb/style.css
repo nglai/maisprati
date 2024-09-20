@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#header {
+    width: 100%;
+
+}
+
+#header-title {
+    display: flex;
+    align-items: center;
+
+}
+
+#header-title a img{
+    width: 20%;
+    margin-left: 50%;
+}
+
+#header-title h1{
+    font-size: 4rem;
+}
+
+#header-subtitle {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: red;
+}
+
+#navigation {
+    background-color: forestgreen;
+    display: flex;
+    justify-content: space-around;
+}
+
+#navigation li {
+    margin: 1%;
+}
+
+#navigation li a{
+    color: white;
+    font-size: 1.5rem;
+}
+
+#navigation li a:hover{
+    color: red;
+}
+
+#body-text {
+    display: flex;
+}
+
+#body-text-left {
+    background-color: rgba(214, 13, 13, 0.658);
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+}
+
+#body-text-left img{
+    height: 90%;
+    width: 90%;
+    border-radius: 5%;
+    margin: 3%;
+    box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.6);
+}
+
+#body-text-left h2{
+    color: darkgreen;
+    font-size: 2rem;
+    margin: 2%;
+    font-weight: 600;
+}
+
+#body-text-left p{
+    font-size: 1.5rem;
+    margin-left: 2%;
+
+}
+
+#body-text-left dl dt{
+    font-size: 2rem;
+    margin: 1.5%;
+    color: darkgreen;
+}
+
+#body-text-left h3{
+    font-size: 2rem;
+    margin: 1.5%;
+    color: darkgreen;
+}
+
+#body-text-right {
+    background-color: olivedrab;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+#body-text-right ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#body-text-right ul li{
+    background-color: white;
+    width: 60%;
+    text-align: center;
+    padding: 5%;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.6);
+}
+
+#body-text-right ul li a{
+    font-size: 2.0rem;
+    color: black;
+}
+
+#body-text-right ul li a:hover{
+    color: red
+}
+
+#rodape {
+    text-align: center;
+    padding: 2%;
+}
+
+#rodape p{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
