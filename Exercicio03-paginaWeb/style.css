@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sue+Ellen+Francisco&display=swap');/* CSS gerais */
 * {
     margin: 0;
     padding: 0;
@@ -11,9 +12,10 @@ a {
     text-decoration: none;
 }
 
+/* Cabeçalho */
 #header {
     width: 100%;
-
+    background-color: rgba(236, 234, 234, 0.5);
 }
 
 #header-title {
@@ -25,10 +27,12 @@ a {
 #header-title a img{
     width: 20%;
     margin-left: 50%;
+    padding-top: 5%;
 }
 
 #header-title h1{
     font-size: 4rem;
+    font-family: "Sue Ellen Francisco", cursive;
 }
 
 #header-subtitle {
@@ -36,6 +40,7 @@ a {
     justify-content: center;
     font-size: 2rem;
     color: red;
+    font-family: "Pacifico", cursive;
 }
 
 #navigation {
@@ -57,6 +62,7 @@ a {
     color: red;
 }
 
+/* Corpo */
 #body-text {
     display: flex;
 }
@@ -88,7 +94,7 @@ a {
 #body-text-left p{
     font-size: 1.5rem;
     margin-left: 2%;
-
+    font-family: "Pacifico", cursive;
 }
 
 #body-text-left dl dt{
@@ -137,12 +143,15 @@ a {
     color: red
 }
 
+/* Rodapé */
 #rodape {
     text-align: center;
     padding: 2%;
+    background-color: rgb(0, 0, 0);
 }
 
 #rodape p{
     font-size: 1.5rem;
     font-weight: 600;
+    color: red;
 }
