@@ -1,0 +1,189 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+#vazio {
+    height: 200px;
+}
+
+#carrosel_container {
+    display: flex;
+    justify-content: center;
+}
+
+#carrosel {
+    width: 90%;
+}
+
+.carrosel_card img{
+    width: 60%;
+    margin-left: 20%;
+}
+
+.slick-prev::before, .slick-next::before {
+    color: #000;
+    font-size: 2rem;
+}
+
+.slick-dots li.slick-active button::before {
+    color: black;
+}
+
+.slick-dots li button::before {
+    font-size: 20px;
+}
+
+/* Sobre */
+#main-title {
+    color: #444
+}
+
+#about-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li{
+    line-height: 30px;
+}
+
+#about-list i{
+    color: darkgoldenrod;
+    margin-right: 15px;
+}
+
+/*Servicos*/
+.servicos_img {
+    height: 30vh;
+    transition: transform 0.5s ease-in-out;
+}
+
+.servicos_img:hover {
+    transform: rotateY(180deg);
+}
+
+.div_principal_servicos {
+    padding-bottom: 50px; 
+}
+
+/*Testemunhos*/
+.card_comentario {
+   padding: 10px 0; 
+}
+
+.comentario_img {
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+}
+
+/*Contatos -NewsLetter*/
+#news_container {
+    background-color: #c3c3c3;
+    margin-top: 50px;
+    padding-bottom: 25px;
+}
+
+#news_email {
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid grey;
+    display: inline;
+    box-sizing: border-box;
+    width: 40%;
+    height: 40px;
+}
+
+#news_btn {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid grey;
+    height: 40px;
+    padding: 0 30px;
+    position: absolute;
+    margin-left: -130px;
+    transition: 0.5s;
+}
+
+#news_btn:hover {
+    background-color: #444;
+    color: white;
+}
+
+/* Contato - Call to action */
+#cta-container {
+    background-color: #e3e3e3;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+#cta-row a{
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#cta-row p {
+    margin-left: 30px;
+    width: auto;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    display: inline;
+    width: 70%;
+}
+
+#cta-row button {
+    width: auto;
+    font-size: 1.2rem;
+    margin-left: 30px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+/* Footer */
+#footer_div_principal {
+   border-top: 1px solid #4444441b; 
+   margin-top: 50px;
+}
+
+#footer_container {
+    padding-top: 25px;
+}
+
+#left_div_footer a{
+    font-size: 1.2rem;
+    color: black;
+    margin-bottom: 50px;
+    transition: 1s;
+}
+
+#left_div_footer > a:hover{
+    font-size: 1.5rem;
+}
+
+#redes-sociais a{
+    font-size: 2rem;
+}
+
+#redes-sociais a:hover{
+    font-size: 3rem;
+}
+
+/* Contato */
+#contato_btn {
+    width: 20%;
+    margin-left: 40%;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+
+#sobre, #servicos-ancora, #testemunho-ancora {
+    padding-top: 150px;
+}

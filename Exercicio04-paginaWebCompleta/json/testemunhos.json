@@ -1,0 +1,42 @@
+[
+    {
+        "nome": "Paulo Gustavo",
+        "imagem": "./assets/testemunhosImg/perfil1.jpg",
+        "comentario": "No Terin, encontrei a paz que tanto procurava. As terapias me proporcionaram um relaxamento profundo e uma sensação de renovação."
+    },  
+    {
+        "nome": "Claudio Fonseca",
+        "imagem": "./assets/testemunhosImg/perfil2.jpg",
+        "comentario": "O Terin me surpreendeu com a precisão dos tratamentos. Senti uma energia incrível fluindo por todo o meu corpo."
+    },
+    {
+        "nome": "Ana Júlia",
+        "imagem": "./assets/testemunhosImg/perfil3.jpg",
+        "comentario": "O Terin é o lugar perfeito para quem busca harmonizar corpo e mente. Os terapeutas são excelentes e o ambiente é muito acolhedor."
+    },
+    {
+        "nome": "Bruna Pimentel",
+        "imagem": "./assets/testemunhosImg/perfil4.jpg",
+        "comentario": "As terapias do Terin são simplesmente transformadoras. Me senti mais leve e com uma nova perspectiva de vida."
+    },
+    {
+        "nome": "Bruno Soares",
+        "imagem": "./assets/testemunhosImg/perfil5.jpg",
+        "comentario": "O Terin me proporcionou uma experiência única. Sai de lá completamente renovada e com uma sensação de bem-estar duradoura."
+    },
+    {
+        "nome": "Carla Santana",
+        "imagem": "./assets/testemunhosImg/perfil6.jpg",
+        "comentario": "O Terin me deu um novo gás para encarar a vida. Os tratamentos me revitalizaram por completo."
+    },
+    {
+        "nome": "Júlio Dantas",
+        "imagem": "./assets/testemunhosImg/perfil7.jpg",
+        "comentario": "O Terin é o meu refúgio. A cada sessão, me sinto mais próxima de mim mesmo."
+    },
+    {
+        "nome": "Mirla Linda",
+        "imagem": "./assets/testemunhosImg/perfil8.jpg",
+        "comentario": "O Terin me reconectou com a natureza. Os tratamentos com óleos essenciais e pedras quentes foram incríveis."
+    }
+]

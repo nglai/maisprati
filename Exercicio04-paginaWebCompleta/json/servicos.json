@@ -1,0 +1,42 @@
+[
+    {
+        "nome": "Acupuntura",
+        "imagem": "./assets/servicosImg/acupuntura.jpg",
+        "descricao": "A acupuntura, uma prática milenar originária da Medicina Tradicional Chinesa, consiste na inserção de finas agulhas em pontos específicos do corpo. Essa técnica visa equilibrar o fluxo de energia vital (Qi) que, segundo a filosofia chinesa, circula por meridianos invisíveis."
+    },  
+    {
+        "nome": "Bambuterapia",
+        "imagem": "./assets/servicosImg/bambuterapia.jpg",
+        "descricao": "A bambuterapia é uma técnica milenar que utiliza hastes de bambu para realizar massagens relaxantes e terapêuticas. Com movimentos suaves e precisos, o bambu proporciona uma experiência única, aliviando tensões musculares, melhorando a circulação sanguínea e promovendo um profundo relaxamento."
+    },
+    {
+        "nome": "Kinesio Tape",
+        "imagem": "./assets/servicosImg/kinesioTape.png",
+        "descricao": "A fita kinésio, também conhecida como bandagem elástica, é uma técnica que utiliza fitas adesivas com propriedades elásticas para auxiliar no tratamento de diversas condições musculares e articulares. Desenvolvida pelo quiropraxista japonês Kenzo Kase, a fita kinésio busca promover a recuperação, aliviar a dor e melhorar a performance física."
+    },
+    {
+        "nome": "Massagem Relaxante",
+        "imagem": "./assets/servicosImg/massagem.jpg",
+        "descricao": "A massagem relaxante é uma jornada sensorial que convida o corpo e a mente a um estado de profunda tranquilidade. Através de movimentos suaves e fluidos, o terapeuta massageia os músculos, aliviando tensões e promovendo um relaxamento profundo. É como um abraço reconfortante que envolve todo o corpo, dissipando o estresse do dia a dia e proporcionando uma sensação de bem-estar indescritível."
+    },
+    {
+        "nome": "Massagem nos Pés",
+        "imagem": "./assets/servicosImg/massagemPes.jpg",
+        "descricao": "Os pés, muitas vezes negligenciados, carregam o peso do nosso corpo e guardam as tensões do dia a dia. Uma massagem nos pés é muito mais do que um simples cuidado: é uma jornada de bem-estar que promove: Relaxamento profundo, Melhora da circulação, Alívio de dores e Equilíbrio energético."
+    },
+    {
+        "nome": "Pedras Quentes",
+        "imagem": "./assets/servicosImg/pedraquente.jpg",
+        "descricao": "A terapia com pedras quentes é uma experiência única que une o poder do calor com a força das pedras. Através da aplicação de pedras vulcânicas aquecidas em pontos estratégicos do corpo, essa técnica promove um relaxamento profundo, alivia tensões musculares e proporciona uma sensação de bem-estar inigualável."
+    },
+    {
+        "nome": "Reiki",
+        "imagem": "./assets/servicosImg/reiki.jpg",
+        "descricao": "O Reiki é uma técnica milenar de origem japonesa que busca restabelecer o equilíbrio energético do corpo, mente e espírito. Através da imposição das mãos, o praticante canaliza a energia vital universal para o paciente, promovendo relaxamento profundo, alívio do estresse e bem-estar geral."
+    },
+    {
+        "nome": "Ventosaterapia",
+        "imagem": "./assets/servicosImg/ventosaterapia.jpg",
+        "descricao": "A ventosaterapia é uma técnica milenar que utiliza ventosas para criar um vácuo na pele, promovendo diversos benefícios à saúde. Essa prática, originária da medicina tradicional chinesa, tem ganhado cada vez mais adeptos no mundo ocidental"
+    }
+]
