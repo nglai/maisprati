@@ -1,9 +1,9 @@
 # Instruções de como visualizar o projeto:
-1 - Nas extensões do VSCode, baixar o Live Server.
-2 - Baixar o repositório no GitHub.
-3 - Entrar na pasta do repositório.
-4 - Clicar arquivo no index.html.
-5 - Clicar com o botao direito e abrir a página com "Open With Live Server".
+1. Nas extensões do VSCode, baixar o Live Server.
+2. Baixar o repositório no GitHub.
+3. Entrar na pasta do repositório.
+4. Clicar arquivo no index.html.
+5. Clicar com o botao direito e abrir a página com "Open With Live Server".
 
 # Sobre as APIs Utilizadas
 Foi criada dentro do projeto uma pasta chamada json. Nela contem 2 arquivos do tipo Json, simulando uma API para que quando for realizada uma requisição, traga os dados que são necessários para popular as parte de Serviços e Testemunhos.
