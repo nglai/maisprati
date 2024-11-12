@@ -1,0 +1,54 @@
+.principalTabsNavegaveis {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.active {
+  background-color:rgb(241, 187, 225);
+}
+
+.menuTabsNavegaveis button{
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 20%;
+  margin: 0 10px;
+}
+
+.conteudoTabsNavegaveis {
+  width: 80%;
+  margin: auto;
+  padding: 30px;
+}
+
+.sobreNosTabsNavegaveis p, .contatoTabsNavegaveis p, .formularioTabsNavegaveis label{
+  font-size: 1.2rem;
+}
+
+.formularioTabsNavegaveis input{
+  padding: 4px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  width: 40%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.formularioTabsNavegaveis textarea{
+  padding: 4px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  width: 45%;
+  margin-bottom: 15px;
+}
+
+.formularioTabsNavegaveis button {
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 10%;
+}

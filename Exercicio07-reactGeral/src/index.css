@@ -1,0 +1,19 @@
+.principalHome {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.navegacaoHome li{
+    margin-top: 15px;
+    list-style: none;
+}
+
+.navegacaoHome a{
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.navegacaoHome a:hover{
+    color: rgb(29, 173, 209);
+}

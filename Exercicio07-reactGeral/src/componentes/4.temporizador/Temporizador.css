@@ -1,0 +1,15 @@
+.principalTemporizador {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.principalTemporizador p {
+  font-size: 1.5rem;
+}
+
+.principalTemporizador button{
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  margin-left: 10px;
+}

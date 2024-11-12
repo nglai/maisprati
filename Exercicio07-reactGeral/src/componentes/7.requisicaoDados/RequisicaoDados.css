@@ -1,0 +1,26 @@
+.principalRequisicaoDados {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.requisicaoDadosBtn {
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 10%;
+}
+
+.requisicaoDadosLista {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.requisicaoDadosLista li {
+    list-style: none;
+    margin-top: 15px;
+    font-size: 1.2rem;
+}

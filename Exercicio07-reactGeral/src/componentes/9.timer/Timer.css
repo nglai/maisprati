@@ -1,0 +1,22 @@
+.principalTimer {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.painelTimer input {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+
+.painelTimer button{
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+
+.painelTimer p {
+  font-size: 1.5rem;
+}

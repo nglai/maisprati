@@ -1,0 +1,35 @@
+.principalFormularioSimples {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.formularioSimples {
+  display: flex;
+  flex-direction: column;
+}
+
+.formularioSimples div {
+  padding-bottom: 15px;
+}
+
+.formularioSimples label {
+  font-size: 1.2rem;
+}
+
+.formularioSimples input {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  width: 40%;
+  text-align: center;
+}
+
+
+.formBtn {
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 10%;
+}

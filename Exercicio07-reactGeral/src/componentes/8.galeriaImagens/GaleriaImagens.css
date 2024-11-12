@@ -1,0 +1,41 @@
+.principalGaleriaImagens {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.galeriaImagensList{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.galeriaImagensList img{
+    width: 240px;
+    height: 140px;
+}
+
+.galeriaImagensModal {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.galeriaImagensModal img{
+    width: 100%;
+    height: 50%;
+}
+
+.galeriaImagensModal span{
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.galeriaImagensModal button{
+    padding: 10px;
+    font-size: 2rem;
+    font-weight: 900;
+}

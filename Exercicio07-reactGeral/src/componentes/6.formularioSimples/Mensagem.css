@@ -1,0 +1,8 @@
+.principalMensagem {
+  margin: auto;
+  text-align: center;
+}
+
+.principalMensagem p {
+  font-size: 1.4rem;
+}
