@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>LandPaging</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/dd05b058bb.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg navbarBootstrap">
+        <a href="" class="logo navbar-brand">
+            <img src="images/nintendo-switch.png" alt="nintendo switch logo" height="240" width="240" />
+        </a>
+        <button class="navbar-toggler collapseBtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="collapse navbar-collapse" id="navbarContent">
+            <ul class="nav navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.nintendo.com/us/whatsnew/" target="_blank">Switch News</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.nintendo.com/pt-br/switch/online/" target="_blank">Switch Online</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.nintendo.com/us/switch/online/nintendo-switch-online/classic-games/" target="_blank">Switch Classic</a>
+                </li>
+            </ul>
+            <div class="login">
+                <button>Login</button>
+                <input type="text" name="" id="">
+            </div>
+    
+            <div class="search">
+                <input type="text" id="gameInput" placeholder="Search">
+            </div>
+        </nav>
+
+    </header>
+    
+
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" id="slide-1">
+                <img src="images/super_mario_odyssey_dinosaur_4k.jpeg" alt="Banner do Super Mario Odyssey">
+                <section class="banner">
+                    <aside class="left">
+                        <article class="features">
+                            <section class="rating">
+                                <span class="score">9.2</span>
+                                <div class="content">
+                                    <span class="subtitle">M E T A S C O R E</span>
+                                    <h4>Ótimo</h4>
+                                    <span>Descrição do Jogo Mario Odyssey</span>
+                                </div>
+                            </section>
+                            <section class="pricing">
+                                <a href=""><i class="fa-solid fa-circle-plus"></i></a>
+                                <div class="content">
+                                    <span class="subtitle">Super Mario Odyssey</span>
+                                    <h4>COMPRE AGORA</h4>
+                                    <span>Plataforma, Aventura, Ação</span>
+                                </div>
+                            </section>
+                        </article>
+                        <h1>Mario</h1>
+                        <div class="redesSociais">
+                            <button><i class="fa-brands fa-github"></i></button>
+                            <button><i class="fa-brands fa-linkedin"></i></button>
+                            <button><i class="fa-solid fa-plus"></i></button>
+                            <button><i class="fa-regular fa-envelope"></i></button>
+                        </div>
+                    </aside>
+                    <img src="images/mario.png" alt="Mario">
+                    <aside class="right">
+                        <ul class="description">
+                            <li>
+                                <span><i class="fa-regular fa-circle-check"></i></span>
+                                <span>DATA DE LANÇAMENTO</span>
+                                <p>27 de Outubro 2017</p>
+                            </li>
+                            <li>
+                                <span><i class="fa-regular fa-circle-check"></i></span>
+                                <span>MODOS DE JOGO COMPATÍVEIS</span>
+                                <p>Modo TV, Modo Semiportátil, Modo Portátil</p>
+                            </li>
+                        </ul>
+
+                        <section class="trailer">
+                            <h2>Assista ao Trailer</h2>
+                            <iframe width="800" height="500" src="https://www.youtube.com/embed/5kcdRBHM7kM"
+                                title="Super Mario Odyssey Trailer" allowfullscreen></iframe>
+                        </section>
+                    </aside>
+                </section>
+            </div>
+
+            <div class="swiper-slide" id="slide-2">
+                <img src="images/pokemon-legends-arceus.jpeg" alt="Banner do Pokemon Legends Arceus">
+                <section class="banner">
+                    <aside class="left">
+                        <article class="features">
+                            <section class="rating">
+                                <span class="score">8.3</span>
+                                <div class="content">
+                                    <span class="subtitle">M E T A S C O R E</span>
+                                    <h4>Bom</h4>
+                                    <span>Prepare-se para uma aventura Pokemon!</span>
+                                </div>
+                            </section>
+                            <section class="pricing">
+                                <a href=""><i class="fa-solid fa-circle-plus"></i></a>
+                                <div class="content">
+                                    <span class="subtitle">Pokemon Legends</span>
+                                    <h4>COMPRE AGORA</h4>
+                                    <span>Ação, RPG</span>
+                                </div>
+                            </section>
+                        </article>
+                        <h1>Pokemon</h1>
+                        <div class="redesSociais">
+                            <button><i class="fa-brands fa-github"></i></button>
+                            <button><i class="fa-brands fa-linkedin"></i></button>
+                            <button><i class="fa-solid fa-plus"></i></button>
+                            <button><i class="fa-regular fa-envelope"></i></button>
+                        </div>
+                    </aside>
+                    <img src="images/red.png" alt="Mario">
+                    <aside class="right">
+                        <ul class="description">
+                            <li>
+                                <span><i class="fa-regular fa-circle-check"></i></span>
+                                <span>DATA DE LANÇAMENTO</span>
+                                <p>28 de Janeiro</p>
+                            </li>
+                            <li>
+                                <span><i class="fa-regular fa-circle-check"></i></span>
+                                <span>MODOS DE JOGO COMPATÍVEIS</span>
+                                <p>Modo TV, Modo Semiportátil, Modo Portátil</p>
+                            </li>
+                        </ul>
+
+                        <section class="trailer">
+                            <h2>Assista ao Trailer</h2>
+                            <iframe width="800" height="500" src="https://www.youtube.com/embed/wOEHUANP-vo?si=lxSFkIzXXWfzDmOB"
+                                title="Pokemon Legends Trailer" allowfullscreen></iframe>
+                        </section>
+                    </aside>
+                </section>
+            </div>
+
+            <div class="swiper-slide" id="slide-3">
+                <img src="images/The-Legend-of-Zelda-Breath-of-the-Wild.jpeg" alt="Banner do Zelda">
+                <section class="banner">
+                    <aside class="left">
+                        <article class="features">
+                            <section class="rating">
+                                <span class="score">8.6</span>
+                                <div class="content">
+                                    <span class="subtitle">M E T A S C O R E</span>
+                                    <h4>Bom</h4>
+                                    <span>Prepare-se para uma aventura!</span>
+                                </div>
+                            </section>
+                            <section class="pricing">
+                                <a href=""><i class="fa-solid fa-circle-plus"></i></a>
+                                <div class="content">
+                                    <span class="subtitle">Pokemon Legends</span>
+                                    <h4>COMPRE AGORA</h4>
+                                    <span>Ação, RPG</span>
+                                </div>
+                            </section>
+                        </article>
+                        <h1>Zelda</h1>
+                        <div class="redesSociais">
+                            <button><i class="fa-brands fa-github"></i></button>
+                            <button><i class="fa-brands fa-linkedin"></i></button>
+                            <button><i class="fa-solid fa-plus"></i></button>
+                            <button><i class="fa-regular fa-envelope"></i></button>
+                        </div>
+                    </aside>
+                    <img src="images/link.png" alt="Mario">
+                    <aside class="right">
+                        <ul class="description">
+                            <li>
+                                <span><i class="fa-regular fa-circle-check"></i></span>
+                                <span>DATA DE LANÇAMENTO</span>
+                                <p>24 de Janeiro 2017</p>
+                            </li>
+                            <li>
+                                <span><i class="fa-regular fa-circle-check"></i></span>
+                                <span>MODOS DE JOGO COMPATÍVEIS</span>
+                                <p>Modo TV, Modo Semiportátil, Modo Portátil</p>
+                            </li>
+                        </ul>
+
+                        <section class="trailer">
+                            <h2>Assista ao Trailer</h2>
+                            <iframe width="800" height="500" src="https://www.youtube.com/embed/uHGShqcAHlQ?si=TpzI6hQB0cXp73ZG"
+                                title="Pokemon Legends Trailer" allowfullscreen></iframe>
+                        </section>
+                    </aside>
+                </section>
+            </div>
+            
+        </div>
+        <div class="swiper-button-prev"></div>
+        <!-- Botão de navegação para o slide anterior -->
+        <div class="swiper-button-next"></div>
+        <!-- Botão de navegação para o próximo slide -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.5.2/jquery-migrate.min.js"
+    integrity="sha512-BzvgYEoHXuphX+g7B/laemJGYFdrq4fTKEo+B3PurSxstMZtwu28FHkPKXu6dSBCzbUWqz/rMv755nUwhjQypw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
